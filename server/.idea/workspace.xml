@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8fb56f25-f548-491a-94b2-58ae924b517e" name="Default Changelist" comment="Node.js + Express + Angular - Inventory Manager">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hpFQwQRgLmokhTAdP0eaQwdIds" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.62" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Guy\WebstormProjects\nodejs_express_restfulservices\client\angular-app\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fb56f25-f548-491a-94b2-58ae924b517e" name="Default Changelist" comment="" />
+      <created>1600700114087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600700114087</updated>
+      <workItem from="1600700115153" duration="10653000" />
+      <workItem from="1600774106817" duration="16058000" />
+      <workItem from="1600792105115" duration="356000" />
+      <workItem from="1600792602067" duration="1147000" />
+      <workItem from="1600866379544" duration="13312000" />
+      <workItem from="1600949645512" duration="7069000" />
+      <workItem from="1600964847127" duration="2289000" />
+      <workItem from="1601035923602" duration="1912000" />
+      <workItem from="1601038674044" duration="605000" />
+      <workItem from="1601039351585" duration="2382000" />
+      <workItem from="1601127176386" duration="2736000" />
+    </task>
+    <task id="LOCAL-00001" summary="Node.js + Express + Angular - Inventory Manager">
+      <created>1601037351298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601037351299</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Node.js + Express + Angular - Inventory Manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Node.js + Express + Angular - Inventory Manager" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="714" y="344" key="#Notifications" timestamp="1601039019949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1601039019949" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600709829397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600709829397" />
+    <state x="244" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600964205465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="244" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600964205465" />
+    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600700678227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600700678227" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601039043962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601039043962" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601038698195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601038698195" />
+    <state width="1487" height="283" key="GridCell.Tab.0.bottom" timestamp="1600887271447">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1487" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600887271447" />
+    <state width="1487" height="283" key="GridCell.Tab.0.center" timestamp="1600887271447">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1487" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600887271447" />
+    <state width="1487" height="283" key="GridCell.Tab.0.left" timestamp="1600887271446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1487" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600887271446" />
+    <state width="1487" height="283" key="GridCell.Tab.0.right" timestamp="1600887271447">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1487" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600887271447" />
+    <state x="72" y="264" key="Vcs.Push.Dialog.v2" timestamp="1601039631480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="264" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601039631480" />
+    <state x="717" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1601039396682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601039396682" />
+    <state x="303" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601039466501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="303" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601039466501" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600777028952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600777028952" />
+  </component>
+</project>

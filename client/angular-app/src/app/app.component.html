@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  table, td, th {
+    border: 1px;
+    font-size: large;
+    font-style: italic;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  th,form {
+    height: 50px;
+    width: 100px;
+  }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="app.component.html">API-Service</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+<div >
+
+</div>
+
+<h2>Get Request ('http://localhost:3000/api/items')  </h2>
+<table class="jumbotron bg-dark text-light">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Count</th>
+  </tr>
+
+  <tr *ngFor="let com of itemsList">
+    <td>{{com.id}}</td>
+    <td>{{com.name}}</td>
+    <td>{{com.description}}</td>
+    <td>{{com.count}}</td>
+
+  </tr>
+
+</table>
+<button (click)="getItems()" type="submit" class="w3-button w3-block w3-dark-grey">Refresh List</button>
+
+
+<br>
+<br>
+
+<h2>Get Request (Using Parameters - By id)</h2>
+<h2>('http://localhost:3000/api/items/:id')</h2>
+<div class="w3-section" >
+  <label>ID  </label>
+  <input  class="w3-input w3-border" type="number" [(ngModel)]="id" [ngModelOptions]="{standalone: true}"  placeholder="Get item by id">
+  <button (click)="getItemById(id)" type="submit" class="w3-button w3-block w3-dark-grey">Get Item</button>
+</div>
+<table class="jumbotron bg-dark text-light">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Count</th>
+  </tr>
+
+  <tr>
+
+    <td>{{singleItem?.id}}</td>
+    <td>{{singleItem?.name}}</td>
+    <td>{{singleItem?.description}}</td>
+    <td>{{singleItem?.count}}</td>
+
+  </tr>
+</table>
+
+
+<body class="center">
+<h2 > Post Request - </h2>
+<h2> ('http://localhost:3000/api/items')</h2>
+<h2>Update(put) Request - </h2>
+<h2> ('http://localhost:3000/api/items/:id')</h2>
+<h2>Delete Request - </h2>
+<h2> ('http://localhost:3000/api/items/:id') </h2>
+<form action="/action_page.php" target="_blank">
+  <div class="w3-section" >
+    <label>Id</label>
+    <input name="idName" class="w3-input w3-border" type="text" [(ngModel)]="id" [ngModelOptions]="{standalone: true}"  placeholder="ID">
+  </div>
+  <div class="w3-section">
+    <label>Name</label>
+    <input class="w3-input w3-border" id="nameElement" type="text" [(ngModel)]="name" [ngModelOptions]="{standalone: true}"  placeholder="Name" >
+  </div>
+  <div class="w3-section">
+    <label>description</label>
+    <input class="w3-input w3-border" id="descriptionElement" type="text" [(ngModel)]="description" [ngModelOptions]="{standalone: true}" placeholder="Description">
+  </div>
+  <div class="w3-section">
+    <label>count</label>
+    <input class="w3-input w3-border" id="countElement" type="number" [(ngModel)]="count" [ngModelOptions]="{standalone: true}" placeholder="Count">
+  </div>
+
+  <div>
+    <td>    <button id="postbtn" (click)="postItem(name,description,count)" type="submit" class="dropbtn">Post Item</button>
+    </td>
+    <td>    <button id="updatebtn" (click)="updateItemById(id,name,description,count)" type="submit" class="dropbtn">Update Item</button>
+    </td>
+    <td>    <button id="deletebtn" (click)="deleteItemById(id)" type="submit" class="dropbtn">Delete Item</button>
+    </td>
+
+
+    <p> You have successfully posted/updated/deleted: {{post_result}}</p>
+
+
+
+  </div>
+</form>
+</body>
+
+<body class="right">
+<form>
+
+  <h2 > Withdraw/Deposit Request -</h2>
+  <h2>('http://localhost:3000/api/items/withdraw/:id/:count')</h2>
+  <h2>('http://localhost:3000/api/items/deposit/:id/:count')</h2>
+  <div class="w3-section" >
+    <label>Id</label>
+    <input class="w3-input w3-border" type="text" [(ngModel)]="id" [ngModelOptions]="{standalone: true}"  placeholder="ID">
+  </div>
+  <div class="w3-section">
+    <label>count</label>
+    <input class="w3-input w3-border" type="number" [(ngModel)]="count" [ngModelOptions]="{standalone: true}" placeholder="Count">
+  </div>
+  <td>    <button (click)="withdrawItemCount(id,count)" type="submit" class="dropbtn">Withdraw Item Amount</button>
+  </td>
+  <td><button (click)="depositItemCount(id,count)" type="submit" class="dropbtn">Deposit Item Amount</button>
+  </td>
+  <p> You have successfully Withdrawn/Deposited: {{deposit_withdraw_result}}</p>
+
+
+
+
+
+
+<br>
+
+</form>
+</body>
